@@ -1,0 +1,50 @@
+body{
+	background: url(../image/night.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.form-select{
+	width: 340px;
+	height: 40px;
+	margin-top:1%;
+}
+
+.login-container input{
+	margin-top:1%;
+	width: 340px;
+	height: 40px;
+	font-size: 16px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* future proofing */
+}
+
+.login-container button{
+	margin-top:1%;
+	width: 340px;
+	height: 60px;
+}
+
+.container{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* future proofing */
+}
+
+.login-container{
+	background: rgba(255, 255, 255, 0.51);
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 400px;
+	height: auto;
+}
+
+.msu-logo{
+    margin-left: auto;
+    margin-right: auto;
+	width: 343px;
+	height: 346px;
+}
