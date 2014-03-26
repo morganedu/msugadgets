@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example</title>
+  <style type="text/css" href="util/css/bootstrap.min.css"></style>
+  <script src="util/js/jquery-2.1.0.min.js"></script>
+  <script src="util/js/angular.min.js"></script>
+  <script src="control/gadgetcontrol1.js"></script>
+<!--
+  <script src="control/invoice2.js"></script>
+  <script src="model/finance2.js"></script>
+-->
+
+</head>
+
+<body>
+
+<div ng-app="gadgetcontrol1" ng-controller="GadgetController as invoice">
+  <button class="btn" ng-click="invoice.gadgetConstructor(); invoice.render()">Pay</button>
+<!--
+  <b>Invoice:</b>
+  <div>
+    Quantity: <input type="number" ng-model="invoice.qty" required >
+  </div>
+  <div>
+    Costs: <input type="number" ng-model="invoice.cost" required >
+    <select ng-model="invoice.inCurr">
+      <option ng-repeat="c in invoice.currencies">{{c}}</option>
+    </select>
+  </div>
+  <div>
+    <b>Total:</b>
+    <span ng-repeat="c in invoice.currencies">
+      {{invoice.total(c) | currency:c}}
+    </span>
+    <button class="btn" ng-click="invoice.pay()">Pay</button>
+  </div>
+-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+<style type="text/css">
+@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}
+</style>
+  <meta charset="UTF-8">
+  <title>Example - example-example74</title>
+  
+
+  <script src="angular.min.js"></script>
+  
+
+  
+</head>
+<body ng-app="" class="ng-scope">
+      <div ng-init="qty=1;cost=2">
+      <b>Invoice:</b>
+      <div>
+        Quantity: <input type="number" ng-model="qty" required="" class="ng-pristine ng-valid-number ng-valid ng-valid-required">
+      </div>
+      <div>
+        Costs: <input type="number" ng-model="cost" required="" class="ng-pristine ng-valid-number ng-valid ng-valid-required">
+      </div>
+      <div class="ng-binding">
+        <b>Total:</b> $2.00
+      </div>
+    </div>
+
+</body></html>

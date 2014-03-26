@@ -1,0 +1,92 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" type="text/css" href="util/css/bootstrap.min.css">
+    <style type="text/css">
+      .my-fixed-top{
+        width: 460px;
+      }
+      .my-fixed-top {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+      }
+      .my-fixed-top li { 
+        display: inline; 
+      }
+      .navbar-center-menu{
+        width: auto;
+        background-color: Black;
+      }
+      .glyphicon-3x{
+        font-size: 25px;
+      }
+      .list-item{
+        margin: 2.8%;
+      }
+      ul:first-child{
+        margin: 3%;
+        margin-left: -3%;
+      }
+      .gadget-pool{
+        width: 100%;
+        height: 100%;
+        
+      }
+      .gadget-box{
+        width: 400px;
+        height:250px;
+        margin: 2px;
+        border-style: solid;
+        border-color: #EEE;
+        border-width: 1px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+      }
+      hr{
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container my-fixed-top">
+      <ul class="unsorted-list">
+        <li class="list-item">
+          <a href="#">
+            <i class="btn-lg glyphicon glyphicon-3x glyphicon-home"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <i class="btn-lg glyphicon glyphicon-3x glyphicon-user"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <i class="btn-lg glyphicon glyphicon-3x glyphicon-th"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <i class="btn-lg glyphicon glyphicon-3x glyphicon-pencil"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <i class="btn-lg glyphicon glyphicon-3x glyphicon-log-out"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+<br/><br/><hr class="container">
+
+    <div class="my-container-fluid gadget-pool" ng-view>
+      <div class="gadget-box"></div>
+    </div>
+
+    <script type="text/javascript" src="util/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="util/js/bootstrap.min.js"></script>
+  </body>
+</html>
